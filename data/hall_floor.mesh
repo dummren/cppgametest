@@ -1,0 +1,22 @@
+txp concretefloor.jpg 3 rgb
+    repeat repeat
+    nearest_mipmap_nearest linear_mipmap_linear
+
+vsp shader.vert
+fsp shader.frag
+
+ind 0 1 2
+    2 3 0
+end
+
+pos 0 3 5.0f 0.0f -5.0f
+        -5.0f 0.0f -5.0f
+        -5.0f 0.0f 25.0f
+        5.0f 0.0f 25.0f
+end
+
+uv 2 2 1.0f 0.0f
+       0.0f 0.0f
+       0.0f 6.0f
+       1.0f 6.0f
+end
